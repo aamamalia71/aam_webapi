@@ -1,0 +1,8 @@
+git init
+git remote add origin [url_git]=>https://github.com/aamamalia71/aam_webapi.git
+git add --all
+git config user.email "[email_github]"=>aamamalia89
+git config user.name "[username_github]"=>aamamalia71
+git commit -m "init"
+git commit --local credential.helper ""
+git push -u origin master
